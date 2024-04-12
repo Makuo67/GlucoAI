@@ -13,6 +13,8 @@ scaler = joblib.load("diabetes_scaler.pkl")
 app = FastAPI()
 
 origins = [
+    "http://localhost:3000",  # Assuming your React app runs on localhost:3000
+    "http://127.0.0.1:3000",  # Include both localhost and 127.0.0.1 for safety
     "https://glucoai.onrender.com",  # react URL
 
 ]
@@ -58,8 +60,9 @@ class PredictionInput(BaseModel):
 
 
 @app.post("/predict")
-def predict(input_data: PredictionInput):
+async def predict(input_data: PredictionInput):
     try:
+
         # Convert input data to a format your model expects, e.g., a NumPy array
         data = np.array(
             [[input_data.HighBP, input_data.HighChol, input_data.CholCheck,
