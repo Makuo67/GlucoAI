@@ -13,9 +13,7 @@ scaler = joblib.load("diabetes_scaler.pkl")
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",  # Assuming your React app runs on localhost:3000
-    "http://127.0.0.1:3000",  # Include both localhost and 127.0.0.1 for safety
-    "https://glucoai.onrender.com/",  # react URL
+    "https://glucoai.onrender.com",  # react URL
 
 ]
 
