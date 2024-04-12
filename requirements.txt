@@ -1,0 +1,4 @@
+Babel==2.14.0
+fastapi==0.110.1
+pydantic==2.7.0
+pydantic_core==2.18.1
