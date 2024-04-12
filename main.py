@@ -60,7 +60,7 @@ class PredictionInput(BaseModel):
 
 
 @app.post("/predict")
-async def predict(input_data: PredictionInput):
+def predict(input_data: PredictionInput):
     try:
 
         # Convert input data to a format your model expects, e.g., a NumPy array
