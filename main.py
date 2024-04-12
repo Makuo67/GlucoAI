@@ -15,7 +15,8 @@ app = FastAPI()
 origins = [
     "http://localhost:3000",  # Assuming your React app runs on localhost:3000
     "http://127.0.0.1:3000",  # Include both localhost and 127.0.0.1 for safety
-    # Add any other origins as needed
+    "https://glucoai.onrender.com/",  # react URL
+
 ]
 
 app.add_middleware(
