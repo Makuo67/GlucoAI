@@ -124,6 +124,7 @@ const SubmitStep = ({ userInputs, updatePredictionResult }) => {
     console.log(JSON.stringify(inputObject, null, 2));
 
     try {
+      const backendUrl = process.env.REACT_APP_BACKEND_URL;
       const response = await fetch("${backendUrl}/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
