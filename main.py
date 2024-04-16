@@ -7,8 +7,8 @@ from fastapi import Request
 
 
 # Load model
-model = joblib.load("diabetes.pkl")
-scaler = joblib.load("diabetes_scaler.pkl")
+model = joblib.load("/models/diabetes.pkl")
+scaler = joblib.load("/models/diabetes_scaler.pkl")
 
 app = FastAPI()
 

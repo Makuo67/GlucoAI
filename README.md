@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# GLUCO AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Gluco AI, an advanced machine learning model that predicts your risk of developing diabetes based on comprehensive health data. Our platform leverages the latest advancements in artificial intelligence to provide you with a personalized risk assessment, enabling you to take informed steps towards disease prevention.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Screenshot](#screenshot)
+- [Data Used](#data-used)
+- [How to Interact](#how-to-interact)
+- [Contributing](#contributing)
+- [Authors](#authors)
+- [License](#license)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Gluco AI is a cutting-edge machine learning platform designed to help individuals assess their risk of developing diabetes. By analyzing a variety of health data points, Gluco AI provides accurate, personalized risk assessments. This enables users to take proactive measures towards a healthier lifestyle and effective disease prevention.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Comprehensive Data Analysis**: Analyzes various health metrics such as cholesterol levels, blood pressure, BMI, and more.
+- **Personalized Assessments**: Offers personalized diabetes risk assessments based on your unique health profile.
+- **User-Friendly Interface**: Easy-to-use interface for entering health data and receiving risk assessments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get started with Gluco AI, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Visit our website [Gluco AI Homepage](https://glucoai.onrender.com).
+2. Input your health data including cholesterol levels, blood pressure, BMI, smoking habits, stroke history, heart disease history, and physical activity levels.
+3. Receive your personalized diabetes risk assessment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Data Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The dataset, gathered in 2015, originated from an extensive phone call questionnaire conducted across all 50 states, the District of Columbia, Guam, and Puerto Rico. The data was collected by Centers for Disease Control and Prevention (CDC) that respondents were asked series of demographic and personal health questions.
 
-### `npm run eject`
+## How to Interact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Go to the website:** Link provided above
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Click on `Get Started`:** Answer all the questions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Click on `Submit for Prediction `:** Wait for about a minute for response.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions to this repository are welcomed! If you'd like to contribute code, documentation, or other improvements, please follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Fork the repository to your own GitHub account.
+- Create a new branch for your work.
+- Make your changes and commit them.
+- Push your changes to your GitHub account.
+- Create a pull request from your fork's branch to the main repository.
+- We'll review your contributions and merge them if they add value to the project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Authors
 
-### Code Splitting
+- [Makuochukwu Christian Okeke](https://www.github.com/Makuo67)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+[![License: Creative Commons Attribution 4.0 International License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
